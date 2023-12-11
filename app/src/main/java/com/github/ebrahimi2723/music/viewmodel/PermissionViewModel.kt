@@ -9,7 +9,7 @@ class PermissionViewModel : ViewModel() {
 
     fun dismissDialog() {
 
-        visiblePermissionDialogQueue.removeAt(visiblePermissionDialogQueue.size)
+        visiblePermissionDialogQueue.removeFirst()
 
     }
 
